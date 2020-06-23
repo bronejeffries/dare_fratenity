@@ -166,12 +166,12 @@
 
               <!-- panel-status -->
               <div class="panel-row row no-gutters">
-                <div class="panel-col col-lp-6 panel-pt-col">
+                <div class="panel-col panel-pt-col">
                   <!-- panel -->
                   <div class="panel panel-pt">
                     <div class="panel-row row no-gutters">
 
-                      <div class="panel-col col-md-4 col-xl-4">
+                      <div class="panel-col col-md-4 col-xl-4 col-lg-4">
                           <!-- welcome panel -->
                           <div class="panel">
                           <!-- <header class="panel-header text-center">
@@ -238,7 +238,7 @@
                                 </div>
                               </div>
                             </header>
-                            <div class="panel-body">
+                            <div class="panel-body main-sidebar-inner" style="max-height:130vh !important;" data-scrollbar="scroll">
                                 <div class="panel-user-stat panel-list my-4">
                                     <!-- dare with bet open -->
                                     <div class="panel-stat-item panel-list-item">
@@ -368,7 +368,7 @@
 
                       <div class="panel-col col-md-4 col-xl-4 card-item">
                         <!-- chart panel -->
-                        <div class="panel">
+                        <div class="panel" data-scrollbar="sidebar">
                           <header class="panel-header text-center">
                             <div class="w-100">
                               <h5 class="title mb-0">Dare Responses</h5>
@@ -379,7 +379,7 @@
                               </span>
                             </div>
                           </header>
-                          <div class="panel-body border-top-0 p-0">
+                          <div class="panel-body border-top-0 p-0 main-sidebar-inner" style="max-height:175vh !important;" data-scrollbar="scroll">
                             <div class="p-4">
                               <div>
                                 <div class="profile-post-block">
@@ -419,7 +419,213 @@
                                       <p class="fw-400">I don't think I could live alone again. I have to do something to help that child. You stand there and accuse me, but where were you at the time?</p>
                                     </div>
                                     <!-- <img src="assets/img/profile/post-bg.jpg" class="rounded" alt="Post"> -->
-                                    <video src="assets/videos/Zara Larsson - Ruin My Life.mp4" class="img-fluid rounded" alt="video_post_ruin_my_life" controls="true"></video>
+                                    <div class="mb-5">
+                                      <video data-video_url="" id="video" class="img-fluid rounded" alt="video_post_ruin_my_life"></video>
+                                    </div>
+                                    <div class="py-6 d-flex">
+                                      <a href="profile.html#" class="d-inline-block mr-4"><i class="far fa-heart text-warning"></i> <span class="fw-400">26 Likes</span></a>
+                                      <a href="profile.html#"><i class="far fa-comment text-warning"></i> <span class="fw-400">18 Reactions</span></a>
+                                      <div class="ml-auto">
+                                          <div class="dropdown">
+                                            <a class="nav-link d-inline-flex align-items-center h-100 text-capitalize ls-normal small-1 pr-0" href="profile.html#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <span>Expand <i class="fas fa-chevron-down"></i></span>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right shadow-1 py-3 mt-1">
+                                              <a class="dropdown-item" href="profile.html#">Edit post</a>
+                                              <a class="dropdown-item" href="profile.html#">Delete post</a>
+                                              <a class="dropdown-item" href="profile.html#">Copy link</a>
+                                            </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="mt-7">
+                                    <div class="form-group">
+                                      <textarea class="form-control form-control-sm" rows="5" placeholder="Add Reaction"></textarea>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                      <div class="mr-auto">
+                                        <a href="profile.html#" class="btn btn-sm btn-round btn-warning">Post</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="profile-post-block">
+                                  <div>
+                                    <div class="mb-5">
+                                      <div class="d-flex align-items-center">
+                                        <div class="d-flex align-items-center text-light">
+                                          <div>
+                                            <img class="profile-avatar rounded-circle" src="assets/img/avatar/2.jpg" alt="Avatar">
+                                          </div>
+                                          <div class="lh-2 pl-4">
+                                            <h6 class="mb-0">@Christine</h6>
+                                            <span class="small-3 text-secondary fw-500">28 May 2020 at 11:51 PM</span>
+                                          </div>
+                                          <div class="lh-2 pl-5">
+                                            <img src="assets/img/icons/headset.svg" alt="headset" class="panel-icon">
+                                          </div>
+                                          <div class="lh-2 pl-4">
+                                            <a href="profile.html" class="mb-0">@bronejeffries</a>
+                                          </div>
+                                        </div> 
+                                        <div class="ml-auto">
+                                          <div class="dropdown">
+                                            <a class="nav-link d-inline-flex align-items-center h-100 text-capitalize ls-normal small-1 pr-0" href="profile.html#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <span><i class="fas fa-chevron-down"></i></span>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right shadow-1 py-3 mt-1">
+                                              <a class="dropdown-item" href="profile.html#">Vote on Response</a>
+                                              <a class="dropdown-item" href="daredetails.html#">Dare details</a>
+                                              <!-- <a class="dropdown-item" href="profile.html#">Copy link</a> -->
+                                            </div>
+                                          </div>
+                                        </div>                                       
+                                      </div>
+                                    </div>
+                                    <div class="mb-5">
+                                      <p class="fw-400">I don't think I could live alone again. I have to do something to help that child. You stand there and accuse me, but where were you at the time?</p>
+                                    </div>
+                                    <!-- <img src="assets/img/profile/post-bg.jpg" class="rounded" alt="Post"> -->
+                                    <div class="mb-5">
+                                      <video data-video_url="" id="video" class="img-fluid rounded" alt="video_post_ruin_my_life"></video>
+                                    </div>
+                                    <div class="py-6 d-flex">
+                                      <a href="profile.html#" class="d-inline-block mr-4"><i class="far fa-heart text-warning"></i> <span class="fw-400">26 Likes</span></a>
+                                      <a href="profile.html#"><i class="far fa-comment text-warning"></i> <span class="fw-400">18 Reactions</span></a>
+                                      <div class="ml-auto">
+                                          <div class="dropdown">
+                                            <a class="nav-link d-inline-flex align-items-center h-100 text-capitalize ls-normal small-1 pr-0" href="profile.html#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <span>Expand <i class="fas fa-chevron-down"></i></span>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right shadow-1 py-3 mt-1">
+                                              <a class="dropdown-item" href="profile.html#">Edit post</a>
+                                              <a class="dropdown-item" href="profile.html#">Delete post</a>
+                                              <a class="dropdown-item" href="profile.html#">Copy link</a>
+                                            </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="mt-7">
+                                    <div class="form-group">
+                                      <textarea class="form-control form-control-sm" rows="5" placeholder="Add Reaction"></textarea>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                      <div class="mr-auto">
+                                        <a href="profile.html#" class="btn btn-sm btn-round btn-warning">Post</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="profile-post-block">
+                                  <div>
+                                    <div class="mb-5">
+                                      <div class="d-flex align-items-center">
+                                        <div class="d-flex align-items-center text-light">
+                                          <div>
+                                            <img class="profile-avatar rounded-circle" src="assets/img/avatar/2.jpg" alt="Avatar">
+                                          </div>
+                                          <div class="lh-2 pl-4">
+                                            <h6 class="mb-0">@Christine</h6>
+                                            <span class="small-3 text-secondary fw-500">28 May 2020 at 11:51 PM</span>
+                                          </div>
+                                          <div class="lh-2 pl-5">
+                                            <img src="assets/img/icons/headset.svg" alt="headset" class="panel-icon">
+                                          </div>
+                                          <div class="lh-2 pl-4">
+                                            <a href="profile.html" class="mb-0">@bronejeffries</a>
+                                          </div>
+                                        </div> 
+                                        <div class="ml-auto">
+                                          <div class="dropdown">
+                                            <a class="nav-link d-inline-flex align-items-center h-100 text-capitalize ls-normal small-1 pr-0" href="profile.html#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <span><i class="fas fa-chevron-down"></i></span>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right shadow-1 py-3 mt-1">
+                                              <a class="dropdown-item" href="profile.html#">Vote on Response</a>
+                                              <a class="dropdown-item" href="daredetails.html#">Dare details</a>
+                                              <!-- <a class="dropdown-item" href="profile.html#">Copy link</a> -->
+                                            </div>
+                                          </div>
+                                        </div>                                       
+                                      </div>
+                                    </div>
+                                    <div class="mb-5">
+                                      <p class="fw-400">I don't think I could live alone again. I have to do something to help that child. You stand there and accuse me, but where were you at the time?</p>
+                                    </div>
+                                    <!-- <img src="assets/img/profile/post-bg.jpg" class="rounded" alt="Post"> -->
+                                    <div class="mb-5">
+                                      <video data-video_url="" id="video" class="img-fluid rounded" alt="video_post_ruin_my_life"></video>
+                                    </div>
+                                    <div class="py-6 d-flex">
+                                      <a href="profile.html#" class="d-inline-block mr-4"><i class="far fa-heart text-warning"></i> <span class="fw-400">26 Likes</span></a>
+                                      <a href="profile.html#"><i class="far fa-comment text-warning"></i> <span class="fw-400">18 Reactions</span></a>
+                                      <div class="ml-auto">
+                                          <div class="dropdown">
+                                            <a class="nav-link d-inline-flex align-items-center h-100 text-capitalize ls-normal small-1 pr-0" href="profile.html#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <span>Expand <i class="fas fa-chevron-down"></i></span>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right shadow-1 py-3 mt-1">
+                                              <a class="dropdown-item" href="profile.html#">Edit post</a>
+                                              <a class="dropdown-item" href="profile.html#">Delete post</a>
+                                              <a class="dropdown-item" href="profile.html#">Copy link</a>
+                                            </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="mt-7">
+                                    <div class="form-group">
+                                      <textarea class="form-control form-control-sm" rows="5" placeholder="Add Reaction"></textarea>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                      <div class="mr-auto">
+                                        <a href="profile.html#" class="btn btn-sm btn-round btn-warning">Post</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="profile-post-block">
+                                  <div>
+                                    <div class="mb-5">
+                                      <div class="d-flex align-items-center">
+                                        <div class="d-flex align-items-center text-light">
+                                          <div>
+                                            <img class="profile-avatar rounded-circle" src="assets/img/avatar/2.jpg" alt="Avatar">
+                                          </div>
+                                          <div class="lh-2 pl-4">
+                                            <h6 class="mb-0">@Christine</h6>
+                                            <span class="small-3 text-secondary fw-500">28 May 2020 at 11:51 PM</span>
+                                          </div>
+                                          <div class="lh-2 pl-5">
+                                            <img src="assets/img/icons/headset.svg" alt="headset" class="panel-icon">
+                                          </div>
+                                          <div class="lh-2 pl-4">
+                                            <a href="profile.html" class="mb-0">@bronejeffries</a>
+                                          </div>
+                                        </div> 
+                                        <div class="ml-auto">
+                                          <div class="dropdown">
+                                            <a class="nav-link d-inline-flex align-items-center h-100 text-capitalize ls-normal small-1 pr-0" href="profile.html#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <span><i class="fas fa-chevron-down"></i></span>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right shadow-1 py-3 mt-1">
+                                              <a class="dropdown-item" href="profile.html#">Vote on Response</a>
+                                              <a class="dropdown-item" href="daredetails.html#">Dare details</a>
+                                              <!-- <a class="dropdown-item" href="profile.html#">Copy link</a> -->
+                                            </div>
+                                          </div>
+                                        </div>                                       
+                                      </div>
+                                    </div>
+                                    <div class="mb-5">
+                                      <p class="fw-400">I don't think I could live alone again. I have to do something to help that child. You stand there and accuse me, but where were you at the time?</p>
+                                    </div>
+                                    <!-- <img src="assets/img/profile/post-bg.jpg" class="rounded" alt="Post"> -->
+                                    <div class="mb-5">
+                                      <video data-video_url="" id="video" class="img-fluid rounded" alt="video_post_ruin_my_life"></video>
+                                    </div>
                                     <div class="py-6 d-flex">
                                       <a href="profile.html#" class="d-inline-block mr-4"><i class="far fa-heart text-warning"></i> <span class="fw-400">26 Likes</span></a>
                                       <a href="profile.html#"><i class="far fa-comment text-warning"></i> <span class="fw-400">18 Reactions</span></a>
@@ -485,7 +691,7 @@
                                 </div>
                               </div>
                             </header>
-                            <div class="panel-body">
+                            <div class="panel-body chat-dialogue-sc" data-scrollbar="scroll">
                               <div class="pl-2 pr-1 py-2">
                                 <!-- item -->
                                 <div class="timeline-item" data-time="24 Mar 2020" data-icon="&#xe950;">
@@ -504,7 +710,29 @@
                                       <div class="text-danger border border-right-0 border-bottom-0 border-top-0 pl-1">
                                           <p class="m-0">#200pts</p>
                                           <div>
-                                            <a href="profile.html" class="mx-1 my-1 p-1 btn btn-apple btn-sm text-glow-white">Respond</a>                                      
+                                            <a href="#" data-target="#dare_1responseModal" class="mx-1 my-1 p-1 btn btn-outline-success btn-round px-4 btn-sm text-glow-white">Respond</a>
+                                            <div class="modal-md bg-dark" id="dare_1responseModal" tabindex="-1" role="modal" aria-hidden="true">
+                                              <div class="">
+                                                <div class="panel">
+                                                  <div class="modal-header">
+                                                    <h4 class="modal-title" id="dare_1responseModalLabel">Response</h4>
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="panel-body">
+                                                      <form action="" method="post">
+                                                        <div class="form-group">
+                                                          <input type="file" class="form-control form-control-sm" accept=".mp4,.bbg" placeholder="Add Reaction"/>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                          <button type="button" class="btn btn-outline-success" data-dismiss="modal">submit</button>
+                                                          <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                      </form>
+                                                  </div>                                      
+                                                </div>
+                                              </div>
+                                          </div>                                  
                                           </div>
                                       </div>
                                       
@@ -524,7 +752,7 @@
                                         <div class="text-danger border border-right-0 border-bottom-0 border-top-0 pl-1">
                                             <p class="m-0 text-them">#open</p>
                                             <div>
-                                              <a href="profile.html" class="mx-1 my-1 p-1 btn btn-apple btn-sm text-glow-white">Respond</a>                                      
+                                              <a href="profile.html" class="mx-1 my-1 p-1 btn btn-outline-success btn-round px-4 btn-sm text-glow-white">Respond</a>                                      
                                             </div>
                                         </div>
                                     </div>
@@ -543,7 +771,26 @@
                                         <div class="text-danger border border-right-0 border-bottom-0 border-top-0 pl-1">
                                             <p class="m-0 text-them">#open</p>
                                             <div>
-                                              <a href="profile.html" class="mx-1 my-1 p-1 btn btn-apple btn-sm text-glow-white">Respond</a>                                      
+                                              <a href="profile.html" class="mx-1 my-1 p-1 btn btn-outline-success btn-round px-4 btn-sm text-glow-white">Respond</a>                                      
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- /.item -->
+                                <!-- item -->
+                                <div class="timeline-item" data-time="19 Feb 2020" data-icon="&#xe950;">
+                                  <div class="timeline-item-inner">
+                                    <h6 class="d-inline-block fw-500 text-warning mb-2">@ronnieibra</h6>
+                                    <div class="d-flex">
+                                        <div class="ml-1 pr-1 pr-lg-1">
+                                          <span class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Etiam mi velit....</span>
+                                        </div>
+                                        <div class="text-danger border border-right-0 border-bottom-0 border-top-0 pl-1">
+                                            <p class="m-0 text-them">#open</p>
+                                            <div>
+                                              <a href="profile.html" class="mx-1 my-1 p-1 btn btn-outline-success btn-round px-4 btn-sm text-glow-white">Respond</a>                                      
                                             </div>
                                         </div>
                                     </div>
@@ -566,8 +813,8 @@
                               </div>
                             </div>
                           </header>
-                          <div class="panel-body">
-                            <div class="pl-2 pr-1 py-2">
+                          <div class="panel-body chat-dialogue-sc" data-scrollbar="scroll">
+                            <div class="pl-2 pr-1 py-2" >
                               <!-- item -->
                               <div class="timeline-item" data-time="24 Mar 2020" data-icon="&#xe945;">
                                 <div class="timeline-item-inner">
